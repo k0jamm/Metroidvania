@@ -15,7 +15,9 @@ const App = () => {
     <>
     <div className="app">
     <div className="background-wrapper">
-    
+    <div className="pd"></div>
+    <img src="/pf2.png" alt="My Logo" style={{ height: '50px' }} />
+    <div className="pd"></div>
     <main>
     <Router>
       <NavBar />

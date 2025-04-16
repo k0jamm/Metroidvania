@@ -9,6 +9,7 @@ function Home() {
     <>
         <div className="box-pd"> </div>
             <div className="txt-box">
+    
                 <h2>Adapte. Lute. Supere.</h2>
                 <text>Em um futuro onde a tecnologia entrou em colapso e o mundo se tornou um campo de teste abandonado, a sobrevivência exige mais do que força — exige adaptação.
 
