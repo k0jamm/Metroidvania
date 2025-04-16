@@ -47,7 +47,7 @@ function Credits() {
                     <h3>
                         <b>
                             <center>
-                                Criacão da história
+                                Roteiro de Personagens
                             </center>
                         </b>
                     </h3>
