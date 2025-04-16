@@ -8,7 +8,7 @@ function News() {
     return( 
     <>
       <div className="n-box-pd"></div>
-       
+  
           <div className="n-txt-box">
             <h1>0.0.2</h1>
             <text>Decisão das tecnologias a serem usadas e começo da documentação</text>
@@ -20,8 +20,6 @@ function News() {
             <h1>0.0.1</h1>
             <text>Brainstorm de story line, estilo artístico e mecânicas de gameplay</text>
           </div>
-        
-      
     </>
     );
   }
