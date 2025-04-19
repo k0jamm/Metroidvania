@@ -1,63 +1,32 @@
 import React from "react";
-import './Credits.css';
 
 function Credits() {
 
 
     return(
         <>
-            <div className="inline-block w-[440px] align-top bg-[#8a5a34] border-4 border-[#b88d5b] rounded-[10px] font-serif shadow-[0_4px_8px_rgba(0,0,0,0.4)] p-10 n-txt-box md:w-90% md:text-base md:my-2">
-                <h2 className="text-[2.2em] leading-[1.1]">Créditos</h2>
-                <header className="h-[52px] pl-5 pr-5 pt-3 text-[#d6ffe4] mt-[-5px] z-2 relative text-[150%]">
-                    <h3>
-                        <b>
-                            <center>
-                            Desenvolvimento
-                            </center>
-                        </b>
-                    </h3>
-                </header>
-                <header className="p-[10px_15px] overflow-hidden text-[#f6ffe3] text-[120%]">
-                    <h4>
-                        <center>
-                            Kaue Orlandini
-                        </center>
-                    </h4>
-                </header>
-                
-                <header className="h-[52px] pl-5 pr-5 pt-3 text-[#d6ffe4] mt-[-5px] z-2 relative text-[150%]">
-                    <h3>
-                        <b>
-                            <center>
-                                Design Artístico
-                            </center>
-                        </b>
-                    </h3>
-                </header>
-                <header className="carg-nome">
-                    <h4>
-                        <center>
-                            Matheus "Mega" Chagas
-                        </center>
-                    </h4>
-                </header>
+            <div className="inline-flex flex-col items-center justify-center mt-10 [background-color:#3b2a1a] [background-image:radial-gradient(rgba(255,255,255,0.04)_1px,transparent_1px)] [background-size:6px_6px] [background-repeat:repeat]  border-4 border-yellow-700 rounded-md p-4 px-10 shadow-md w-[440px] ">
+                <h1 className="text-[2.2em] leading-[1.1] pb-10 pt-10  text-yellow-100 " style={{ fontFamily:  "'Garamond', serif"}}>CRÉDITOS</h1>
+                <div className="p-10">
+                    <h3 className="text-[1.9em] leading-[1.1] mb-2 text-[#BACEE2]" style={{ fontFamily:  "'Garamond', serif"}}>Desenvolvimento</h3>
+                    <h4 className="text-[1em] leading-[1.1]   text-[#99c2eb]" style={{ fontFamily:  "'Garamond', serif"}}>Kaue Orlandini</h4>
+                </div>
+                  
+                <div className="p-10">
+                    <h3 className="text-[1.9em] leading-[1.1] mb-2 text-[#BACEE2]" >Desenvolvimento</h3>
+                    <h4 className="text-[1em] leading-[1.1]   text-[#99c2eb]" style={{ fontFamily:  "'Garamond', serif"}}>Kaue Orlandini</h4>
+                </div>
 
-                <header className="h-[52px] pl-5 pr-5 pt-3 text-[#d6ffe4] mt-[-5px] z-2 relative text-[150%]">
-                    <h3>
-                        <b>
-                            <center>
-                                Roteiro de Personagens
-                            </center>
-                        </b>
-                    </h3>
-                </header>
-                <header className="carg-nome">
-                    <h4>
-                        <center>
-                            Igor "Rodi" Rodrigues 
-                        </center>
-                    </h4>
-                </header>
+                <div className="p-10">
+                    <h3 className="text-[1.9em] leading-[1.1] mb-2 text-[#BACEE2]" >Design Artístico</h3>
+                    <h4 className="text-[1em] leading-[1.1]   text-[#99c2eb]" style={{ fontFamily:  "'Garamond', serif"}}>Matheus "Mega" Chagas</h4>
+                    <h4 className="text-[1em] leading-[1.1]   text-[#99c2eb]" style={{ fontFamily:  "'Garamond', serif"}}>Maria Júlia "Majuks" Raposo</h4>
+                </div>
+
+                <div className="p-10">
+                    <h3 className="text-[1.9em] leading-[1.1] mb-2 text-[#BACEE2]" >Roteiro de Personagens</h3>
+                    <h4 className="text-[1em] leading-[1.1]   text-[#99c2eb]" style={{ fontFamily:  "'Garamond', serif"}}> Igor "Rodi" Rodrigues </h4>
+                </div>
             </div>
             
         </>

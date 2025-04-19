@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
     const menuItems = [
-        { name: "Home", path: "/" },
-        { name: "News", path: "/news" },
-        { name: "About", path: "/about" },
-        { name: "Credits", path: "/credits" },
+        { name: "HOME", path: "/" },
+        { name: "NEWS", path: "/news" },
+        { name: "ABOUT", path: "/about" },
+        { name: "CREDITS", path: "/credits" },
     ];
 
     const renderMenuItems = (items) => {
@@ -15,10 +15,8 @@ const NavBar = () => {
                 <NavLink
                     to={path}
                     className={({ isActive }) => `
-                        bg-[#a87547] py-2 px-3 mx-0.5 border border-[#5b3924] text-[#fce6b5] 
-                        uppercase font-bold cursor-pointer clip-path-[polygon(10%_0%,_90%_0%,_100%_50%,_90%_100%,_10%_100%,_0%_50%)] 
-                        whitespace-nowrap flex-shrink min-w-0 hover:bg-[#c78b56] 
-                        ${isActive ? "bg-[#d9a869] text-[#fff2cc]" : ""}
+                       px-4 m-1 py-2 border-2 border-yellow-700 rounded-md font-semibold bg-[#5c4033] text-yellow-100 hover:bg-yellow-70
+                        ${isActive ? "bg-yellow-700 text-[#fff2cc]" : ""}
                     `}
                 >
                     {name}
@@ -28,7 +26,8 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="inline-flex items-center bg-[#8a5a34] border-4 border-[#b88d5b] rounded-lg p-1 px-2.5 font-serif shadow-lg">
+        <nav className="inline-flex mt-6 gap-3 border-4 border-yellow-600 rounded-lg px-6 py-3 shadow-lg text-white [background-color:#3b2a1a] [background-image:radial-gradient(rgba(255,255,255,0.04)_1px,transparent_1px)] [background-size:6px_6px] [background-repeat:repeat]" style={{ fontFamily:  "'IM Fell English SC', serif"}}>
+
             <ul className="flex list-none m-0 p-0 flex-1 justify-center items-center whitespace-nowrap min-w-0">
                 {renderMenuItems(menuItems.slice(0, 2))}
 
