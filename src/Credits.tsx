@@ -54,9 +54,12 @@ function Credits() {
                 </header>
                 <header className="carg-nome">
                     <h4>
-                        <center>
-                            Igor "Rodi" Rodrigues 
-                        </center>
+                        <b>
+                            <div className="c-box-pd"></div>
+                            <center>
+                                Igor "Rodi" Rodrigues 
+                            </center>
+                        </b>
                     </h4>
                 </header>
             </div>

@@ -5,7 +5,7 @@
   border: 4px solid #b88d5b;
   border-radius: 10px;
   padding: 4px 10px;
-  font-family: "Georgia", serif;
+  font-family: "Poppins", sans-serif;
   box-shadow: 0 4px 8px rgba(0,0,0,0.4);
   flex-direction: row;
   flex-wrap: nowrap;    
@@ -17,7 +17,6 @@
       width: 90%;
       font-size: 1rem;
       margin: 10px auto;
-      
     }
 
     .nav-items {
@@ -30,7 +29,7 @@
 
     .nav-item {
       white-space: nowrap;             
-      font-size: clamp(10px, 2vw, 16px);
+      font-size: clamp(1px, 2vw, 16px);
       margin: 0 8px;
       flex-shrink: 1;                  
       min-width: 0;
@@ -43,7 +42,7 @@
     }
 
    .left-end, .right-end {
-    background: no-repeat center center;
+    display: none;
    }
 
 }
@@ -102,7 +101,7 @@
 }
 
 .nav-buy {
-  background: url('/Scythe.png') no-repeat center center;
+  background: url('/fc166.png') no-repeat center center;
   background-size: contain;
   width: 60px;
   height: 60px;

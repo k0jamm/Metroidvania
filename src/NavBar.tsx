@@ -6,6 +6,8 @@ const NavBar = () => {
     const menuItens = [
     { name: "Home", path: "/" },
     { name: "News", path: "/news" },
+    { name: "Midia", path: "/midia"},
+    { name: "Wiki", path: "/wiki"},
     { name: "About", path: "/about" },
     { name: "Credits", path: "/credits" },
 ];
@@ -14,7 +16,7 @@ return (
     <nav className="nav-bar">
         <div className="nav-end left-end" />
         <ul className="nav-items">
-            {menuItens.slice(0, 2).map(({ name, path}) => (
+            {menuItens.slice(0, 3).map(({ name, path}) => (
                 <li key={name}>
                     <NavLink
                         to={path}
@@ -27,10 +29,10 @@ return (
                     </li>
                 ))}
                 <div className="nav-buy">
-                    <NavLink to="https://store.steampowered.com/?l=portuguese">BUY</NavLink>
+                    <NavLink to="https://store.steampowered.com/?l=portuguese" style={({color: "white"})}>BUY</NavLink>
                     {/* https://store.steampowered.com/?l=portuguese */}
                 </div>
-            {menuItens.slice(2).map(({ name, path}) => (
+            {menuItens.slice(3).map(({ name, path}) => (
                 <li key={name}>
                     <NavLink
                         to={path}
